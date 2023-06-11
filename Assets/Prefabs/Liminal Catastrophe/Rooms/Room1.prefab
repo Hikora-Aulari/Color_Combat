@@ -3529,6 +3529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DownWall
       objectReference: {fileID: 0}
+    - target: {fileID: 3205315642764196813, guid: d47dce75716f87445ae3bf763f5c90d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3997909937443953176, guid: d47dce75716f87445ae3bf763f5c90d9,
         type: 3}
       propertyPath: m_CastShadows

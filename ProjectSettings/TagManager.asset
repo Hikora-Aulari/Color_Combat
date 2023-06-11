@@ -14,6 +14,8 @@ TagManager:
   - Enemy2
   - Enemy3
   - Hands
+  - HikorasHands
+  - item
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,7 @@ public class SaloonEnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (target = GameObject.FindWithTag("Head").transform) ;
+        if (target = GameObject.FindWithTag("Head").transform)
         {
             enemy.SetDestination(target.position);
         }
