@@ -92,14 +92,14 @@ public class HarvestWaves : MonoBehaviour
                 Instantiate(enemy1, new Vector3(-17f, 0f, 25f), enemy1.transform.rotation);
                 enemySpawn1++;
             }
-            while (enemySpawn3 != 15)
+            while (enemySpawn3 != 3)
             {
-                Instantiate(enemy3, new Vector3(40f, 0f, 30f), enemy3.transform.rotation);
+                Instantiate(enemy3, new Vector3(28f, 0f, 50f), enemy3.transform.rotation);
                 enemySpawn3++;
             }
             while (enemySpawn4 != 4)
             {
-                Instantiate(enemy4, new Vector3(6f, 0, 70f), enemy4.transform.rotation);
+                Instantiate(enemy4, new Vector3(40f, 7f, 30f), enemy4.transform.rotation);
                 enemySpawn4++;
             }
         }
