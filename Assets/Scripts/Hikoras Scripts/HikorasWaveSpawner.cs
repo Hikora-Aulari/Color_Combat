@@ -50,12 +50,12 @@ public class HikorasWaveSpawner : MonoBehaviour
         {
             while (enemySpawn1 != 5)
             {
-                Instantiate(enemy1, new Vector3(-3.82f, 0f, 35.72f), enemy1.transform.rotation);
+                Instantiate(enemy1, new Vector3(10f, 2f, -15f), enemy1.transform.rotation);
                 enemySpawn1 ++;
             }
             while (enemySpawn2 != 3)
             {
-                Instantiate(enemy2, new Vector3(14f, 0f, -8f), enemy2.transform.rotation);
+                Instantiate(enemy2, new Vector3(13f, 7f, 0f), enemy2.transform.rotation);
                 enemySpawn2 ++;
             }
         }
@@ -63,12 +63,12 @@ public class HikorasWaveSpawner : MonoBehaviour
         {
             while (enemySpawn1 != 10)
             {
-                Instantiate(enemy1, new Vector3(-3.82f, 0f, 35.72f), enemy1.transform.rotation);
+                Instantiate(enemy1, new Vector3(10f, 2f, -15f), enemy1.transform.rotation);
                 enemySpawn1 ++;
             }
             while (enemySpawn2 != 6)
             {
-                Instantiate(enemy2, new Vector3(14f, 0f, -8f), enemy2.transform.rotation);
+                Instantiate(enemy2, new Vector3(13f, 7f, 0f), enemy2.transform.rotation);
                 enemySpawn2 ++;
             }
         }
@@ -76,17 +76,17 @@ public class HikorasWaveSpawner : MonoBehaviour
         {
             while (enemySpawn1 != 18)
             {
-                Instantiate(enemy1, new Vector3(-3.82f, 0f, 35.72f), enemy1.transform.rotation);
+                Instantiate(enemy1, new Vector3(10f, 2f, -15f), enemy1.transform.rotation);
                 enemySpawn1 ++;
             }
             while (enemySpawn2 != 10)
             {
-                Instantiate(enemy2, new Vector3(14f, 7f, -8f), enemy2.transform.rotation);
+                Instantiate(enemy2, new Vector3(13f, 7f, 0f), enemy2.transform.rotation);
                 enemySpawn2 ++;
             }
             while (enemySpawn3 != 4)
             {
-                Instantiate(enemy3, new Vector3(38f, 15f, 32f), enemy3.transform.rotation);
+                Instantiate(enemy3, new Vector3(23f, 14f, 23f), enemy3.transform.rotation);
                 enemySpawn3++;
             }
         }
@@ -94,17 +94,17 @@ public class HikorasWaveSpawner : MonoBehaviour
         {
             while (enemySpawn1 != 20)
             {
-                Instantiate(enemy1, new Vector3(-3.82f, 0f, 35.72f), enemy1.transform.rotation);
+                Instantiate(enemy1, new Vector3(10f, 2f, -15f), enemy1.transform.rotation);
                 enemySpawn1++;
             }
             while (enemySpawn3 != 15)
             {
-                Instantiate(enemy3, new Vector3(38f, 15f, 32f), enemy3.transform.rotation);
+                Instantiate(enemy3, new Vector3(23f, 14f, 23f), enemy3.transform.rotation);
                 enemySpawn3++;
             }
             while (enemySpawn4 != 4)
             {
-                Instantiate(enemy4, new Vector3(25f, 15f, -49f), enemy4.transform.rotation);
+                Instantiate(enemy4, new Vector3(45f, 14f, -20f), enemy4.transform.rotation);
                 enemySpawn4++;
             }
         }
